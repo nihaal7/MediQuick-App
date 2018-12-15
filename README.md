@@ -2,7 +2,7 @@
 An app that can make a difference whether the patient will live or not!
 
 The quickest way to help in a medical emergency, the thing which will make it easier for doctors to assist the patient and faster!
-Every year, there are over 40,000 people who die because of late medical analysis and a million who died because of no/wrong medicinal processing
+Every year, there are over 40,000 people who die because of late medical analysis and a quater of a million who died because of no/wrong medicinal processing in US itself.
 The application works like this,
 It takes some necessary data from the person in physical contact of the victim or the victim himself and then with our hypothesis the app will give the best possible solutions 
 If it is a first aid then you can provide it 
