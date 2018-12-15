@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:background="@color/MainBG"
+    android:id="@+id/activity_main"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:paddingBottom="16dp"
+    tools:context=".MainActivity">
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="21dp"
+        android:background="@drawable/welcome_bg"
+        android:fontFamily="@font/raleway_bold"
+        android:text="Registration"
+        android:textColor="@color/BlackText"
+        android:textSize="36sp"
+
+        />
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="365dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="109dp"
+        android:layout_marginEnd="21dp"
+        android:ems="10"
+        android:fontFamily="@font/raleway_bold"
+        android:hint="Name"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editText5"
+        android:layout_width="367dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="174dp"
+        android:layout_marginEnd="19dp"
+        android:ems="10"
+        android:fontFamily="@font/raleway_bold"
+        android:hint="Email"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="367dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="238dp"
+        android:layout_marginEnd="49dp"
+        android:ems="10"
+        android:fontFamily="@font/raleway_bold"
+        android:hint="Password"
+        android:inputType="textPersonName|textPassword" />
+
+    <EditText
+        android:id="@+id/editText7"
+        android:layout_width="366dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="303dp"
+        android:layout_marginEnd="50dp"
+        android:ems="10"
+        android:fontFamily="@font/raleway_bold"
+        android:hint="Address"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:fontFamily="@font/raleway_bold"
+        android:id="@+id/button6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="Continue" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="254dp"
+        android:layout_height="58dp"
+        android:layout_alignStart="@+id/editText4"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="-2dp"
+        android:layout_marginBottom="52dp"
+        android:fontFamily="@font/raleway_bold"
+        android:text="Medical History"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/editText6"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText7"
+        android:layout_alignStart="@+id/checkBox"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:fontFamily="@font/raleway_bold"
+        android:hint="Age"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editText8"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText7"
+        android:layout_alignStart="@+id/checkBox"
+        android:layout_marginStart="168dp"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:fontFamily="@font/raleway_bold"
+        android:hint="Sex"
+        android:inputType="textPersonName" />
+
+</RelativeLayout>

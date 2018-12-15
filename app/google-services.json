@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "714387377363",
+    "firebase_url": "https://mediquick-493d2.firebaseio.com",
+    "project_id": "mediquick-493d2",
+    "storage_bucket": "mediquick-493d2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:714387377363:android:17f82edb7184dccd",
+        "android_client_info": {
+          "package_name": "com.mediquick.mediquick"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "714387377363-2bie3p9e1t18asv4dgesto4g2stduv1i.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mediquick.mediquick",
+            "certificate_hash": "3a21b58185d633f208dd3d059b26294fccd2b0fa"
+          }
+        },
+        {
+          "client_id": "714387377363-dqas4gjaeijk1o9hbl69va3aitsiaee7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBShvY1xYWTZDiiyRqf0JtKDE9kfV3LoSw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "714387377363-dqas4gjaeijk1o9hbl69va3aitsiaee7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

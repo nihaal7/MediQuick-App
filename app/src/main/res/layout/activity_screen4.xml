@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:background="@color/MainBG"
+    android:id="@+id/activity_main"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:paddingBottom="16dp"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/raleway_bold"
+            android:text="Please select the diseases you have been diagonsed with before"
+            android:textSize="18sp" />
+
+        <CheckBox
+            android:id="@+id/i1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/raleway_bold"
+            android:text="Acidity"
+            android:textSize="18sp" />
+
+        <CheckBox
+            android:id="@+id/i2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/raleway_bold"
+            android:text="Alzheimer's Disease"
+            android:textSize="18sp" />
+
+        <CheckBox
+            android:id="@+id/i3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/raleway_bold"
+            android:text="Arthritis"
+            android:textSize="18sp" />
+
+        <CheckBox
+            android:id="@+id/i4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/raleway_bold"
+            android:text="Asthma"
+            android:textSize="18sp" />
+
+        <CheckBox
+            android:id="@+id/i5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/raleway_bold"
+            android:text="Blood Cancer"
+            android:textSize="18sp" />
+
+        <CheckBox
+            android:id="@+id/i6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/raleway_bold"
+            android:text="Bone Cancer"
+            android:textSize="18sp" />
+
+        <CheckBox
+            android:id="@+id/i7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/raleway_bold"
+            android:text="Brain Tumour"
+            android:textSize="18sp" />
+
+        <CheckBox
+            android:id="@+id/i8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/raleway_bold"
+            android:text="Bronchitis"
+            android:textSize="18sp" />
+
+        <CheckBox
+            android:id="@+id/i9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/raleway_bold"
+            android:text="Chicken Pox"
+            android:textSize="18sp" />
+
+        <CheckBox
+            android:id="@+id/i10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/raleway_bold"
+            android:text="Cirrhosis"
+            android:textSize="18sp" />
+
+        <CheckBox
+            android:id="@+id/i11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/raleway_bold"
+            android:text="Conjunctivitis"
+            android:textSize="18sp" />
+
+        <CheckBox
+            android:id="@+id/i12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/raleway_bold"
+            android:text="Diabetes Type 1"
+            android:textSize="18sp" />
+
+        <CheckBox
+            android:id="@+id/i13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/raleway_bold"
+            android:text="Diabetes Type 2"
+            android:textSize="18sp" />
+
+        <CheckBox
+            android:id="@+id/i14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/raleway_bold"
+            android:text="Dyslexia"
+            android:textSize="18sp" />
+
+        <CheckBox
+            android:id="@+id/i15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/raleway_bold"
+            android:text="Gout"
+            android:textSize="18sp" />
+
+        <CheckBox
+            android:id="@+id/i16"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/raleway_bold"
+            android:text="Haemorrhoids"
+            android:textSize="18sp" />
+
+        <CheckBox
+            android:id="@+id/i17"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/raleway_bold"
+            android:text="Hepatitis A"
+            android:textSize="18sp" />
+
+        <CheckBox
+            android:id="@+id/i18"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/raleway_bold"
+            android:text="Hepatitis B"
+            android:textSize="18sp" />
+
+        <CheckBox
+            android:id="@+id/i19"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/raleway_bold"
+            android:text="Hyperlipidemia"
+            android:textSize="18sp" />
+
+        <CheckBox
+            android:id="@+id/i20"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/raleway_bold"
+            android:text="HIV"
+            android:textSize="18sp" />
+
+        <CheckBox
+            android:id="@+id/i21"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/raleway_bold"
+            android:text="Kidney Stones"
+            android:textSize="18sp" />
+
+        <CheckBox
+            android:id="@+id/i22"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/raleway_bold"
+            android:text="Leukemia"
+            android:textSize="18sp" />
+
+        <CheckBox
+            android:id="@+id/i23"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/raleway_bold"
+            android:text="Lung Cancer"
+            android:textSize="18sp" />
+
+        <CheckBox
+            android:id="@+id/i24"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/raleway_bold"
+            android:text="Malaria"
+            android:textSize="18sp" />
+
+        <CheckBox
+            android:id="@+id/i25"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/raleway_bold"
+            android:text="Parkinson's Disease"
+            android:textSize="18sp" />
+
+        <CheckBox
+            android:id="@+id/i26"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/raleway_bold"
+            android:text="Tuberculosis"
+            android:textSize="18sp" />
+
+        <CheckBox
+            android:id="@+id/i27"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/raleway_bold"
+            android:text="Vertigo"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/raleway_bold"
+            android:text="Continue"
+            android:textSize="18sp" />
+    </LinearLayout>
+</ScrollView>
